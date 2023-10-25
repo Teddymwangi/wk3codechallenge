@@ -1,0 +1,55 @@
+/* Apply basic styles to the film list */
+#films {
+    list-style: none;
+    padding: 0;
+}
+
+.film-item {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.film-item:hover {
+    background-color: aqua;
+}
+
+/* Apply styles to the movie details section */
+#movie-details {
+    margin-top: 20px;
+    display: flex;
+}
+
+#poster {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the button */
+#buy-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buy-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Apply styles to the sold-out film item */
+.sold-out {
+    color: #ff0000;
+    font-weight: bold;
+}
