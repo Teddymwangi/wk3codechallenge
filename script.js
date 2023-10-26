@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const buyButton = document.getElementById('buy-btn');
 
     // Fetch movies data from the server
-    fetch('http://localhost:3000/films')
+    fetch('https://my-json-server.typicode.com/Teddymwangi/wk3codechallenge/films')
         .then(response => response.json())
         .then(data => {
             data.forEach(movie => {
